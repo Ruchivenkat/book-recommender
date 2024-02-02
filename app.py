@@ -45,8 +45,6 @@ except FileNotFoundError:
     print("The file 'popular.pkl' does not exist.")
     pt = pd.DataFrame()  # Create an empty DataFrame if the file doesn't exist
 
-##hiiiii
-print('hiiii')
 try:
     import pandas as pd
 except ModuleNotFoundError:
